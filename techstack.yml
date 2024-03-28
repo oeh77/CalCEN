@@ -1,0 +1,277 @@
+repo_name: oeh77/CalCEN
+report_id: 36cce5dea01e87dba6119c255b7d5a20
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-28T02:42:02+00:00'
+requested_by: momeara
+provider: github
+branch: master
+detected_tools_count: 21
+tools:
+- name: R Language
+  description: A language and environment for statistical computing and graphics
+  website_url: http://www.r-project.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1213/r-logo.png
+  detection_source_url: https://github.com/oeh77/CalCEN
+  detection_source: Repo Metadata
+- name: ggplot2
+  description: A data visualization package for the statistical programming language
+    R
+  website_url: https://ggplot2.tidyverse.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/6560/New_Project__90_.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2020-10-09 15:57:25.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/oeh77/CalCEN
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/oeh77/CalCEN
+  detection_source: Repo Metadata
+- name: Matrix.utils
+  description: Data.frame-Like Operations on Sparse and Dense Matrix Objects
+  package_url: https://cran.r-project.org/Matrix.utils
+  version: 0.9.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2021-08-06 13:34:20.000000000 Z
+- name: UpSetR
+  description: |-
+    A More Scalable Alternative to Venn and Euler Diagrams for
+    Visualizing Intersecting Sets
+  package_url: https://cran.r-project.org/UpSetR
+  version: 1.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2020-11-30 03:24:30.000000000 Z
+- name: argparser
+  description: Command-Line Argument Parser
+  package_url: https://cran.r-project.org/argparser
+  version: '0.6'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2020-11-18 02:16:51.000000000 Z
+- name: dplyr
+  description: A Grammar of Data Manipulation
+  package_url: https://cran.r-project.org/dplyr
+  version: 0.8.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2020-10-18 15:27:38.000000000 Z
+- name: ggplot2
+  description: Create Elegant Data Visualisations Using the Grammar of Graphics
+  package_url: https://cran.r-project.org/ggplot2
+  version: 1.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2020-10-09 15:57:25.000000000 Z
+- name: gplots
+  description: Various R Programming Tools for Plotting Data
+  package_url: https://cran.r-project.org/gplots
+  version: 3.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2020-10-09 15:57:25.000000000 Z
+- name: hdf5r
+  description: Interface to the 'HDF5' Binary Data Format
+  package_url: https://cran.r-project.org/hdf5r
+  version: 1.3.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2021-08-04 14:56:34.000000000 Z
+- name: huge
+  description: High-Dimensional Undirected Graph Estimation
+  package_url: https://cran.r-project.org/huge
+  version: 1.3.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2020-11-18 02:16:51.000000000 Z
+- name: intervals
+  description: Tools for Working with Points and Intervals
+  package_url: https://cran.r-project.org/intervals
+  version: 0.15.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2020-11-18 02:16:51.000000000 Z
+- name: optparse
+  description: Command Line Option Parser
+  package_url: https://cran.r-project.org/optparse
+  version: 1.6.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2020-11-18 02:16:51.000000000 Z
+- name: plyr
+  description: Tools for Splitting, Applying and Combining Data
+  package_url: https://cran.r-project.org/plyr
+  version: 1.8.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2020-10-18 15:27:38.000000000 Z
+- name: reshape2
+  description: 'Flexibly Reshape Data: A Reboot of the Reshape Package'
+  package_url: https://cran.r-project.org/reshape2
+  version: 1.4.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2020-10-18 15:27:38.000000000 Z
+- name: scales
+  description: Scale Functions for Visualization
+  package_url: https://cran.r-project.org/scales
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2020-10-09 15:57:25.000000000 Z
+- name: seqinr
+  description: Biological Sequences Retrieval and Analysis
+  package_url: https://cran.r-project.org/seqinr
+  version: '4.2'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2020-10-18 15:27:38.000000000 Z
+- name: seriation
+  description: Infrastructure for Ordering Objects Using Seriation
+  package_url: https://cran.r-project.org/seriation
+  version: '1.2'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2021-08-04 14:56:34.000000000 Z
+- name: stringr
+  description: Simple, Consistent Wrappers for Common String Operations
+  package_url: https://cran.r-project.org/stringr
+  version: 1.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2020-10-09 15:57:25.000000000 Z
+- name: tidyr
+  description: Tidy Messy Data
+  package_url: https://cran.r-project.org/tidyr
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/oeh77/CalCEN/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: Matthew O'Meara
+  last_updated_on: 2020-10-09 15:57:25.000000000 Z
